@@ -8,7 +8,7 @@ pipeline
       steps
       {
         sh 'touch abc.txt'
-        sh '$JAVA_HOME'
+        sh 'echo $JAVA_HOME'
       }
     }
   }
